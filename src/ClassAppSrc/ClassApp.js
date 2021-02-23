@@ -5,12 +5,16 @@ This file is a stand-in for a Class-based app.  If substituting your own app, ch
 import { Component } from "react";
 
 class App extends Component {
-	constructor() {
-		super();
-		this.state = {};
-	}
-	render() {
-		return <div className="App">I'm the class app</div>;
-	}
+  constructor() {
+    super();
+    this.state = {};
+  }
+  render() {
+    return (
+      <div className="App">
+        <h1>I'm the class app</h1>
+      </div>
+    );
+  }
 }
 export default App;
