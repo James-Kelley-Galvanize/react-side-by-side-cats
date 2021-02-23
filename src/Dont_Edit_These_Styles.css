@@ -1,0 +1,51 @@
+/* 
+
+This is stand-in for the App.css of YOUR app, replace it with yours if you're pasting your own app into the ClassAppSrc directory. It will apply to BOTH the Classical and Hooks versions of the app so that they can be identical when everything is working.
+
+*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 15% 85%;
+}
+#class-header {
+  text-align: center;
+  grid-column: 1;
+  grid-row: 1;
+}
+#hooks-header {
+  text-align: center;
+  grid-column: 2;
+  grid-row: 1;
+}
+#class-app {
+  grid-column: 1;
+  grid-row: 2;
+  border-right: 1px solid grey;
+}
+#hooks-app {
+  grid-column: 2;
+  grid-row: 2;
+  border-left: 1px solid grey;
+}
+.flex-column {
+  display: flex;
+  flex-flow: column wrap;
+}
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+}
