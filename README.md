@@ -1,10 +1,10 @@
 # REACT CLASSICAL vs. REACT-HOOKS SIDE-BY-SIDE STARTER
 
-## Instructions
+## Instructions:
 
 This app is designed to display _TWO_ React apps side-by-side. These two apps share a CSS file, called `Shared_Styles.css`. 
 
-You've been given two applications that are, from the user's perspective, identical when they render on the page. However, under the hood, they're a bit different!
+You've been given two applications that are, from the user's perspective, identical as they render on the page. However, under the hood, they're a bit different!
 
 You've been provided with the code for a Classical React application (whose code you'll find in the `ClassAppSrc` folder), and the scaffolding to implement identical functionality using React Hooks (whose code files you'll find in the `HooksAppSrc` folder). 
 
