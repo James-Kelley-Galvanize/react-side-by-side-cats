@@ -7,24 +7,12 @@ import HooksApp from "./HooksAppSrc/HooksApp";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <div className="parent-app">
-      <div className="parent-title-bar">
-        <h1 className="parent-column parent-title-left">CLASS</h1>
-        <h1 className="parent-column parent-title-right">HOOKS</h1>
-      </div>
-      <div className="parent-column parent-left-side">
-        <ClassApp />
-      </div>
-      <div className="parent-column parent-right-side">
-        <HooksApp />
-      </div>
-    </div> */}
     <div id="container">
-      <h2 id="class-header">Class App</h2>
+      <div id="class-header">⬇Class App⬇</div>
       <div id="class-app">
         <ClassApp />
       </div>
-      <h2 id="hooks-header">Hooks App</h2>
+      <div id="hooks-header">⬇Hooks App⬇</div>
       <div id="hooks-app">
         <HooksApp />
       </div>
