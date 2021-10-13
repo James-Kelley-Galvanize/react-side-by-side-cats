@@ -18,7 +18,7 @@ function App() {
     return faker.name.firstName();
   }
 
-  async function addCat(e) {
+  function addCat(e) {
     e.preventDefault();
     setCatCount(catCount + 1);
   }
